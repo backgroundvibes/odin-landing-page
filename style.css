@@ -11,6 +11,10 @@ body {
     display: flex;
 }
 
+.intro, .random-info, .quote, .sign-up {
+    padding: 120px 200px;
+}
+
 .header {
     align-self: stretch;
     justify-content: space-around;
@@ -42,7 +46,6 @@ h2 {
     align-self: stretch ;
     align-items: center;
     justify-content: center;
-    padding: 120px 200px;
 }
 
 .intro-text {
@@ -79,13 +82,14 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
 .info-head {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
-    padding: 50px;
+    padding: 0px 50px 50px 50px; 
 }
 
 .ran-imgs {
@@ -123,6 +127,12 @@ button {
     font-weight: lighter;
     font-style: italic;
     color: #1F2937;
+}
+
+.thor {
+    display: flex;
+    font-size: 25px;
+    margin: 0px 0px 0px 580px;
 }
 
 .sign-up {
