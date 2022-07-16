@@ -11,8 +11,8 @@ body {
     display: flex;
 }
 
-.intro, .random-info, .quote, .sign-up {
-    padding: 120px 200px;
+.intro, .random-info, .quote, .container {
+    padding: 120px 170px;
 }
 
 .header {
@@ -139,4 +139,17 @@ button {
     color: #f9faf8;
     background-color: #3882f6;
     display: flex;
+    padding: 25px 120px;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    border-radius: 10px;
+}
+
+.call-to {
+    font-size: large;
+}
+
+.lower {
+    border: 3px solid white;
 }
