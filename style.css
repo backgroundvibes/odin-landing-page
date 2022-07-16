@@ -34,14 +34,45 @@ a {
     color: #e5e7eb;
 }
 
+h2 {
+    margin: 0px;
+}
+
+.intro {
+    align-self: stretch ;
+    align-items: center;
+    justify-content: center;
+    padding: 120px 200px;
+}
+
+.intro-text {
+    padding-right: 40px;
+    flex: 0 1 auto;
+}
+
 button {
+    color: #f9faf8;
     background-color: #3882f6;
+    border: none;
+    font-size: large;
+    font-weight: bolder;
+    padding: 8px 25px;
+    border-radius: 10px;
 }
 
 .main {
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
+}
+
+.placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsla(0, 0%, 66%, 0.5);
+    width: 900px;
+    height: 200px;
 }
 
 .random-info {
